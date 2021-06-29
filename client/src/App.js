@@ -65,7 +65,8 @@ const App = () => {
       <Toaster position="top-center" />
       <ReactMapGL
         {...viewport}
-        mapboxApiAccessToken={process.env.REACT_APP_MAPBOX}
+        mapboxApiAccessToken="pk.eyJ1IjoiYW51amFuMDA3IiwiYSI6ImNrcWZnMm1mZTByODIycHF2eHNieHo3Y2EifQ.P4zFo9B6atEfe-L4njrk7A"
+        // mapboxApiAccessToken={process.env.REACT_APP_MAPBOX}
         onViewportChange={(nextViewport) => setViewport(nextViewport)}
         mapStyle="mapbox://styles/anujan007/ckqfgz7es6hkf18nupb6qnfww"
         onDblClick={addPlace}
