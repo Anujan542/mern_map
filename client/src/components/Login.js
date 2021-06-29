@@ -22,7 +22,7 @@ const Login = ({ setShowLogin, setCurrentUser }) => {
 
       setShowLogin(false);
 
-      toast.success("Successfully Registered.Please Login");
+      toast.success("Successfully Login");
     } catch (error) {
       toast.error(error.response.data.message);
     }
