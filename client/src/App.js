@@ -158,7 +158,7 @@ const App = () => {
               className="button register"
               onClick={() => setShowRegister(true)}
             >
-              Register
+              Register now
             </button>
           </div>
         )}
