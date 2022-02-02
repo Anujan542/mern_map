@@ -10,8 +10,8 @@ db();
 const app = express();
 app.use(express.json());
 
-app.use("/api/user", require("./routes/userRoutes"));
-app.use("/api/pin", require("./routes/pinRoutes"));
+// app.use("/api/user", require("./routes/userRoutes"));
+// app.use("/api/pin", require("./routes/pinRoutes"));
 
 if (process.env.NODE_ENV === "production") {
   app.use("/", express.static("client/build"));
